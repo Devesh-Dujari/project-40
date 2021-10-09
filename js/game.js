@@ -50,7 +50,7 @@ class Game {
         if (index === player.index) {
           fill("red");
           textSize(20);
-          text(player.name, x, y);
+          text(allPlayers[plr].name, x, y);
         }
       }
   
